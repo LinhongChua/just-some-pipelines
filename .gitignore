@@ -1,0 +1,23 @@
+# Ignore build artifacts
+/build/
+*.log
+    
+# Ignore IDE-specific files
+.idea/
+.vscode/
+    
+# Ignore sensitive information
+*.env
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Terraform local configuration and modules
+.terraform/
+*.tfvars
+*.tfvars.json
+
+# Terraform CLI configuration files
+.terraformrc
+terraform.rc
