@@ -39,9 +39,9 @@ def access_gcp_secret_version(project_id:str, secret_id:str, version_id="latest"
 # SQLAlchemy database connection creator function
 # def getconn(pw):
 #     conn = connector.connect(
-#         "hardy-magpie-468509-t1:asia-southeast1:sandbox-sql-instance", # Cloud SQL Instance Connection Name
+#         "", # Cloud SQL Instance Connection Name
 #         "pg8000",
-#         user="linhong.chua@gmail.com",
+#         user="",
 #         password=pw,
 #         db="postgres",
 #         ip_type=IPTypes.PUBLIC # IPTypes.PRIVATE for private IP
